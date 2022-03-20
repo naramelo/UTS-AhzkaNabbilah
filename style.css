@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body,
+html {
+  background-color: #282626;
+  height: 100%;
+  font-family: Poppins;
+  padding-top: 10px;
+}
+
+.jumbotron {
+  background-image: url("img/kopi1.jpg");
+  /* Full height */
+  height: 100%;
+
+  filter: brightness(30%);
+  -webkit-filter: brightness(30%);
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+#menu1 {
+  transform: translate(50, 50);
+  margin-top: -5%;
+}
+
+.imghalal {
+  width: 95%;
+}
+
+.imgservice {
+  width: 87%;
+}
+
+.diskonkopi {
+  margin-left: -1.5%;
+  margin-right: -1.6%;
+}
+
+#blog {
+  margin-top: -6%;
+}
+
+#about {
+  margin-top: 0%;
+  padding-left: 3%;
+}
+
+.textslider {
+  margin-top: -25%;
+}
+
+.imgcontact {
+  margin-left: 10%;
+  border-radius: 10%;
+}
+
+#footer {
+  margin-top: 5%;
+}
+
+#contact {
+  margin-top: -5%;
+}
+
+.wave {
+  margin-left: -30%;
+}
+
+#about {
+  margin-top: -5%;
+}
